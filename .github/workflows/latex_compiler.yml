@@ -21,6 +21,7 @@ jobs:
         with:
           root_file: spac_statement.tex
           compiler: pdflatex
+          args: -file-line-error -halt-on-error -interaction=nonstopmode
 
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
