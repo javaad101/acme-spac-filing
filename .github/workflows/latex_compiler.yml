@@ -1,5 +1,8 @@
 name: LaTeX Document Compiler
 
+permissions:
+  contents: write
+  
 on:
   push:
     branches:
