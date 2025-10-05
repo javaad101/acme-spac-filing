@@ -1,0 +1,11 @@
+--- Build Artifacts ---
+*.pdf
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+
+
+--- Operating System Files ---
+.DS_Store
